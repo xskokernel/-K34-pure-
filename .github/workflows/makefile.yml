@@ -16,9 +16,9 @@ jobs:
       - name: Build Kernel
         uses: xskokernel/kernel_build_action@main
         with:
-          kernel-url: https://github.com/AcmeUI-Devices/android_kernel_xiaomi_cas
-          kernel-dir: msm-4.19
-          kernel-branch: taffy
+          kernel-url: https://github.com/xskokernel/-K34-pure-.git
+          kernel-dir: msm-4.14
+          kernel-branch: 15-pure
           config: phoenix_defconfig
           arch: arm64
           aosp-gcc: true

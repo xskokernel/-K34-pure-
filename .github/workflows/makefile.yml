@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: Build Kernel
-        uses: xskokernel/kernel_build_action@main
+        uses: xskokernel/kernel_build_action@xskokernel-patch-1
         with:
           kernel-url: https://github.com/xskokernel/K34pure.git
           kernel-dir: msm-4.14
